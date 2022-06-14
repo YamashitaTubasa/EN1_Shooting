@@ -29,4 +29,5 @@ public class GManager : MonoBehaviour
             panel.SetActive(true);
         }
     }
+
 }
