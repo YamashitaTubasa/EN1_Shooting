@@ -31,6 +31,5 @@ public class Enemy : MonoBehaviour
         enemyHp = enemyHp - 1;
         //Œ»İ‚Ì‘Ì—Í‚ğConsoleƒrƒ…[‚É•\¦‚·‚é
         Debug.Log(enemyHp);
-
     }
 }
