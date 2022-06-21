@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     // Enemyの体力用変数
-    private int enemyHp;
+    public int enemyHp;
     
     // Start is called before the first frame update
     void Start()
@@ -29,5 +29,8 @@ public class Enemy : MonoBehaviour
     {
         // Enemyの体力を1減らす
         enemyHp = enemyHp - 1;
+        //現在の体力をConsoleビューに表示する
+        Debug.Log(enemyHp);
+
     }
 }
