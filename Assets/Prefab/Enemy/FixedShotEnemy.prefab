@@ -15,10 +15,8 @@ GameObject:
   - component: {fileID: 8849013114445708798}
   - component: {fileID: 5986883639978077942}
   - component: {fileID: 7571149990653276669}
-  - component: {fileID: 3510788612450734451}
-  - component: {fileID: -8216592999237520603}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: FixedShotEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,37 +144,5 @@ MonoBehaviour:
   bulletWayNum: 10
   bulletWaySpace: 50
   bulletWayAxis: 0
-  time: 0.5
-  delayTime: 0.5
---- !u!114 &3510788612450734451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4312934325433295536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 212aacafedfa06d49a8acfb73b7162cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 3899588180191327008, guid: 79e65bbe2340dbb4e8d45ebb9ea56e22, type: 3}
-  time: 0.1
-  delayTime: 0.1
---- !u!114 &-8216592999237520603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4312934325433295536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9741fe5136c26bf43a17cbba98137b2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 3899588180191327008, guid: 79e65bbe2340dbb4e8d45ebb9ea56e22, type: 3}
-  bulletWayNum: 10
-  bulletWaySpace: 180
   time: 0.5
   delayTime: 0.5
